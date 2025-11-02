@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Siti Halimah</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">SH</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Get In Touch</h2>
+    <p>Have a project in mind? Let’s work together to create something amazing.</p>
+
+    <div class="contact-container">
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p>sitihalimaah14@gmail.com</p>
+        <p>0895-0420-0381</p>
+        <p>Pondok Randu, Jakarta Barat</p><br>
+
+        <div class="why">
+          <h4>Why Work With Me?</h4>
+          <ul>
+            <li> Fast turnaround time</li>
+            <li> Clean, maintainable code</li>
+            <li> Responsive design</li>
+            <li> Regular communication</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <form class="contact-form">
+        <label for="name">Your Name *</label>
+        <input type="text" id="name" placeholder="Siti Halimah" required />
+
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" placeholder="hali@example.com" required />
+
+        <label for="service">Service Type *</label>
+        <select id="service" required>
+          <option value="">Select a service</option>
+          <option>Web Development</option>
+          <option>UI/UX Design</option>
+          <option>Consultation</option>
+        </select>
+
+        <label>Project Type *</label>
+        <div class="radio-group">
+          <label><input type="radio" name="type" required /> New Project</label>
+          <label><input type="radio" name="type" /> Existing Project</label>
+          <label><input type="radio" name="type" /> Consultation</label>
+        </div>
+
+        <label>Budget Range *</label>
+        <div class="radio-group">
+          <label><input type="radio" name="budget" value="<1jt"> < Rp1.000.000</label>
+          <label><input type="radio" name="budget" value="1jt-5jt"> Rp1.000.000 - Rp5.000.000</label>
+          <label><input type="radio" name="budget" value="5jt-10jt"> Rp5.000.000 - Rp10.000.000</label>
+          <label><input type="radio" name="budget" value=">10jt"> > Rp10.000.000</label>
+        </div>                      
+
+
+        <label for="desc">Project Description *</label>
+        <textarea id="desc" rows="5" placeholder="Tell me about your project..." required></textarea>
+
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Made with ❤️ by Siti Halimah</p>
+    <a href="https://itpln.ac.id" target="_blank">Visit Institut Teknologi PLN</a>
+    <p>© 2025 Siti Halimah. All rights reserved.</p>
+  </footer>
+</body>
+</html>
